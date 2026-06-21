@@ -14,7 +14,7 @@ def game():
 			if reply=="y":
 				game()
 			elif reply=="n":
-				print('ok bye!')
+				print('Game ended!')
 				break
 			else:
 				print("invalid entry!")
@@ -27,7 +27,7 @@ def game():
 			elif guess<number:
 					print('too low!')
 			else:
-				print('you nailed it!')
+				print('you got it!')
 				break
 		except ValueError:
 			print("invalid entry!")
